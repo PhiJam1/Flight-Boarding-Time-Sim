@@ -1,6 +1,6 @@
 class Passengers(object):
 
-    #a constructor used to set values for the attributes to each passenger object with totalTime defaulting to 0
+    #constructor used to set values for the attributes to each passenger object with totalTime defaulting to 0
     def __init__(self, _SeatRowCol, _numBags, _totalTime = 0):
         self.seatRow = _SeatRowCol[0]
         self.seatCol = _SeatRowCol[1]
