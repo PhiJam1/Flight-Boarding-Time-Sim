@@ -22,7 +22,7 @@ def randSim():
             coord[0] = int(random.randint(1, 6)) #row
             coord[1] = int(random.randint(1, 33)) #col
 
-            #In row 4, 5, and 6 in col 1 don't exist. We can't have passengers there
+            #In row 4, 5, and 6 in col 1 don't exist. We can't have passengers there.
             if (coord[0] > 3 and coord[1] == 1):
                 conflict = True
                 continue
